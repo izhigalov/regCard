@@ -388,7 +388,7 @@ body {
 .popup__btn_block {
   right: 80px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .accaunts__mail {
     -webkit-box-flex: 2;
         -ms-flex-positive: 2;
