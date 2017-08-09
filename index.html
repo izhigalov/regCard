@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+    <script src="https://use.fontawesome.com/15a0c13507.js"></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1 class="header__title">Модерация регистраций</h1>
+        <ul class="header__title_list">
+          <li>Имя</li>
+          <li>Тип совпадения</li>
+          <li>Дата/время</li>
+        </ul>
+      </div>
+      <section class="section">
+        <div class="container">
+          <div class="main__accaunts">
+            <ul class="main__accaunts_list">
+              <li class="main__accaunts_list__item" id="btn">
+                <div class="accaunts__mail">ivanov@gmail.com</div>
+                <div class="accaunts__type"><img src="assets/img/icon1.png"><img src="assets/img/icon2.png"></div>
+                <div class="accaunts__date">20.10.18 15:30</div>
+              </li>
+              <div id="modal">
+                <div class="modal__content">
+                  <div class="modal__content_heading">
+                    <div class="accaunts__mail">nokhchoprint@ya.ru</div><span class="close">&times</span>
+                  </div>
+                  <div class="modal__content_wrapper">
+                    <div class="modal__content--left">
+                      <div class="modal__content--left_heading"><img src="assets/img/contacticon.png"><span class="contact__item--heading">
+                          Указанные реквизиты совпадают<br>с созданной карточкой компании:<br>
+                          ПЕРМЬ</span></div>
+                      <div class="modal__content--left_content"><span class="contact__data">Полное наименование</span><span class="contact__item">Общество с ограниченной отвественностью<br>213123123123</span><span class="contact__data">Юридический адрес</span><span class="contact__item devide">614068, г.Пермь, ул.Крылова, д.4</span><span class="contact__data">ИНН</span><span class="contact__item devide">5902836184</span><span class="contact__data">КПП</span><span class="contact__item devide">590201001</span><span class="contact__data">ОГРН</span><span class="contact__item devide">1075902001317</span><span class="contact__data">ОКВЭД</span><span class="contact__item devide">58</span><span class="contact__data">ФИО Руководителя</span><span class="contact__item">Лошкарев Алексей Григорьевич</span></div>
+                    </div>
+                    <div class="modal__content--right">
+                      <ul class="modal__content_list">
+                        <li class="modal__content_item"><span class="contact__data--regdata">регистрационные данные</span></li>
+                        <li class="modal__content_item"><span class="contact__data">Контактное лицо</span><span class="contact__item">Малгобек Мурад Маглобекович</span></li>
+                        <li class="modal__content_item"><span class="contact__data">Телефон</span><span class="contact__item">+7(953)000-00-00</span></li>
+                        <li class="modal__content_item"><span class="contact__data">E-mail</span><span class="contact__item">nokhchoprint@ya.ru</span></li>
+                        <li class="modal__content_item"><span class="contact__data">Дата регистрации</span><span class="contact__item">20.10.18 15:30</span></li>
+                      </ul>
+                      <div class="modal__content_confirm">
+                        <button class="modal__btn_block" id="popup__btn">Заблокировать</button>
+                        <button class="modal__btn_confirm">Подтвердить</button>
+                        <div id="popup_content">
+                          <div id="popup"><span class="popup__title">Вы хотите заблокировать пользователя?</span>
+                            <button class="popup__btn_block">Да</button>
+                            <button class="popup__btn_confirm" id="btn_confirm">Нет</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <li class="main__accaunts_list__item" id="btn">
+                <div class="accaunts__mail">nokhchoprint@ya.ru</div>
+                <div class="accaunts__type"><img src="assets/img/icon1.png"><img src="assets/img/icon2.png"></div>
+                <div class="accaunts__date">20.10.18 15:30</div>
+              </li>
+              <li class="main__accaunts_list__item" id="btn">
+                <div class="accaunts__mail">petrov@mail.ru</div>
+                <div class="accaunts__type"><img src="assets/img/icon1.png"></div>
+                <div class="accaunts__date">20.10.18 15:30</div>
+              </li>
+              <li class="main__accaunts_list__item" id="btn">
+                <div class="accaunts__mail">petrovich@mail.ru</div>
+                <div class="accaunts__type"><img src="assets/img/icon1.png"></div>
+                <div class="accaunts__date">20.10.18 15:30</div>
+              </li>
+              <li class="main__accaunts_list__item" id="btn">
+                <div class="accaunts__mail">petrovspam@hotmail.com</div>
+                <div class="accaunts__type"><img src="assets/img/icon2.png"></div>
+                <div class="accaunts__date">20.10.18 15:30</div>
+              </li>
+              <li class="main__accaunts_list__item" id="btn">
+                <div class="accaunts__mail">nokhchoprint@ya.ru</div>
+                <div class="accaunts__type"><img src="assets/img/icon1.png"><img src="assets/img/icon2.png"></div>
+                <div class="accaunts__date">20.10.18 15:30</div>
+              </li>
+              <li class="main__accaunts_list__item" id="btn">
+                <div class="accaunts__mail">nokhchoprint@ya.ru</div>
+                <div class="accaunts__type"><img src="assets/img/icon1.png"><img src="assets/img/icon2.png"></div>
+                <div class="accaunts__date">20.10.18 15:30</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="sidebar">
+        <div class="sudebar__header"><i class="fa fa-info fa-2x"></i><i class="fa fa-user-circle fa-2x"></i></div>
+        <div class="sidebar__content">
+          <ul class="sidebar__list">
+            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" id="btn_sidebar" src="assets/img/subj.png"></a></li>
+            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/safe_icon.png"></a></li>
+            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/people2.png"></a></li>
+            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/school.png"></a></li>
+            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/people.png"></a></li>
+            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/ic_play.png"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mainsidebar" id="mainsidebar">
+        <div class="mainsidebar__header">
+          <div class="mainsidebar__logo"><img class="mainsidebar__logo_img" src="assets/img/side_logo.png"></div>
+          <ul class="mainsidebar__userinfo">
+            <li class="userinfo__item"><img class="userinfo__item_img" src="assets/img/acc_logo.png"></li>
+            <li class="userinfo__item"><span class="accuntname">super.mega.odmen</span></li>
+            <li class="userinfo__item"><span class="close_userinfo">&times</span></li>
+          </ul>
+        </div>
+        <div class="mainsidebar__content">
+          <ul class="sidebar__list_mainesaide">
+            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/subj.png"></a>
+              <ul class="sidebar__item_content">
+                <li>Контент</li>
+                <li>Компании</li>
+              </ul>
+            </li>
+            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/safe_icon.png"></a>
+              <ul class="sidebar__item_content">
+                <li>Модерация</li>
+                <li>Регистрации +5</li>
+              </ul>
+            </li>
+            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/people2.png"></a>
+              <ul class="sidebar__item_content">
+                <li>Пользователи</li>
+                <li>Администраторы</li>
+                <li>Компании</li>
+                <li>Заблокированные</li>
+              </ul>
+            </li>
+            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/school.png"></a>
+              <ul class="sidebar__item_content">
+                <li>Справочники</li>
+                <li>Вид детельности</li>
+              </ul>
+            </li>
+            <li class="sidebar__item" id="close_sidebar"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/ic_play_rev.png"></a>
+              <ul class="sidebar__item_content">
+                <li>Свернуть</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
