@@ -34,8 +34,7 @@ btn_confirm.onclick = function(){
 };
 
 btn_sidebar[0].onclick = function() {
-        mainsidebar.style.left = "0";
-
+    mainsidebar.style.left = "0";
 };
 btn_sidebar[1].onclick = function() {
     mainsidebar.style.left = "-255px";
