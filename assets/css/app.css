@@ -41,7 +41,7 @@ body {
 .main__accaunts {
   margin: 0 50px 50px 90px;
   background-color: #fff;
-  height: 100vh; }
+  /*height: 100vh;*/ }
 
 .main__accaunts_list__item {
   height: 57px;
