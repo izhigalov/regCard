@@ -102,12 +102,35 @@
         </div>
       </section>
       <div class="sidebar">
-        <div class="sudebar__header"><i class="fa fa-info fa-2x"></i><i class="fa fa-user-circle fa-2x"></i></div>
+        <div class="sudebar__header">
+          <!--i.fa.fa-info.fa-2x-->
+          <!--i.fa.fa-user-circle.fa-2x-->
+          <!--img.sidebar__item_link__img(src='assets/img/info.png')-->
+          <!--img.sidebar__item_link__img(src='assets/img/logo.png')-->
+          <ul class="sidebar__list--header">
+            <li class="sidebar__item--header"><a class="sidebar__item_link--header" href="#"><img class="sidebar__item_link__imgo" src="assets/img/info.png"></a></li>
+            <li class="sidebar__item--header"><a class="sidebar__item_link--header" href="#"><img class="sidebar__item_link__img" id="logo" src="assets/img/logo.png"></a>
+              <div class="sidebar__item_accaunt" id="accauntInfo">
+                <div class="accaunt__logo"><img class="accaunt__logo_img" src="assets/img/accaunt_logo.png"></div>
+                <div class="accaunt__name">super.mega.odmen.serge...</div><span class="close" id="closeAccaunt">&times</span>
+              </div>
+            </li>
+          </ul>
+        </div>
         <div class="sidebar__content">
           <ul class="sidebar__list">
             <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img btn_sidebar" src="assets/img/subj.png"></a></li>
-            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/safe_icon.png"></a></li>
-            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/people2.png"></a></li>
+            <li class="sidebar__item hint"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/shield.png">
+                <div class="popup">Модерация</div></a></li>
+            <li class="sidebar__item hint"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/people2.png"></a>
+              <ul class="sidebar__item-menu">
+                <li class="sidebar__item-menu_list"><a href="#">Пользователи</a></li>
+                <li class="sidebar__item-menu_list"><a href="#">Администраторы</a></li>
+                <li class="sidebar__item-menu_list"><a href="#">Модераторы</a></li>
+                <li class="sidebar__item-menu_list"><a href="#">Компании</a></li>
+                <li class="sidebar__item-menu_list"><a href="#">Заблокированные</a></li>
+              </ul>
+            </li>
             <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/school.png"></a></li>
             <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/people.png"></a></li>
             <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/ic_play.png"></a></li>
@@ -125,34 +148,34 @@
         </div>
         <div class="mainsidebar__content">
           <ul class="sidebar__list_mainesaide">
-            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img btn_sidebar" src="assets/img/subj.png"></a>
-              <ul class="sidebar__item_content">
+            <li class="sidebar__item--aside"><a class="sidebar__item_link--aside" href="#"><img class="sidebar__item_link__img btn_sidebar" src="assets/img/subj.png"></a>
+              <ul class="sidebar__item_content--aside">
                 <li>Контент</li>
                 <li>Компании</li>
               </ul>
             </li>
-            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/safe_icon.png"></a>
-              <ul class="sidebar__item_content">
-                <li>Модерация</li>
-                <li>Регистрации +5</li>
+            <li class="sidebar__item--aside"><a class="sidebar__item_link--aside" href="#"><img class="sidebar__item_link__img" src="assets/img/shield.png"></a>
+              <ul class="sidebar__item_content--aside">
+                <li><span class="moder">Модерация</span></li>
+                <li><span class="moder">Регистрации +5</span></li>
               </ul>
             </li>
-            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/people2.png"></a>
-              <ul class="sidebar__item_content">
+            <li class="sidebar__item--aside"><a class="sidebar__item_link--aside" href="#"><img class="sidebar__item_link__img" src="assets/img/people2.png"></a>
+              <ul class="sidebar__item_content--aside">
                 <li>Пользователи</li>
                 <li>Администраторы</li>
                 <li>Компании</li>
                 <li>Заблокированные</li>
               </ul>
             </li>
-            <li class="sidebar__item"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/school.png"></a>
-              <ul class="sidebar__item_content">
+            <li class="sidebar__item--aside"><a class="sidebar__item_link--aside" href="#"><img class="sidebar__item_link__img" src="assets/img/school.png"></a>
+              <ul class="sidebar__item_content--aside">
                 <li>Справочники</li>
                 <li>Вид детельности</li>
               </ul>
             </li>
-            <li class="sidebar__item" id="close_sidebar"><a class="sidebar__item_link" href="#"><img class="sidebar__item_link__img" src="assets/img/ic_play_rev.png"></a>
-              <ul class="sidebar__item_content">
+            <li class="sidebar__item--aside" id="close_sidebar"><a class="sidebar__item_link--aside" href="#"><img class="sidebar__item_link__img" src="assets/img/ic_play_rev.png"></a>
+              <ul class="sidebar__item_content--aside">
                 <li>Свернуть</li>
               </ul>
             </li>
